@@ -20,7 +20,7 @@ public class Movie extends Show{
         this.director = director;
     }
 
-    //method to display cars entered into array list
+    //method to display movies entered into array list
     public String displayMovies(){
         return String.format("%s by director %s is best described as %s.", this.getName(),this.getDirector(),this.getDescription());   }
 
